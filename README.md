@@ -10,7 +10,7 @@ This is a community template, not an official AdonisJS project.
 
 ## Deploy to Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/N73OzG?referralCode=iJA_Uz&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/adonisjs-railway-template?referralCode=iJA_Uz&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 After deploying, go to the `adonisjs-railway-template` service Settings, eject the Upstream Repo, and copy the repository to your own account.
 

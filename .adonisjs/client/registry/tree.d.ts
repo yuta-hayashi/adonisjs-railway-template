@@ -2,6 +2,9 @@
 import type { routes } from './index.ts'
 
 export interface ApiDefinition {
+  healthChecks: {
+    ready: typeof routes['health_checks.ready']
+  }
   home: typeof routes['home']
   newAccount: {
     create: typeof routes['new_account.create']

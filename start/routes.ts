@@ -11,6 +11,7 @@ import { middleware } from '#start/kernel'
 import { controllers } from '#generated/controllers'
 import router from '@adonisjs/core/services/router'
 
+router.get('health', [controllers.HealthChecks, 'ready'])
 router.on('/').renderInertia('home', {}).as('home')
 
 router
